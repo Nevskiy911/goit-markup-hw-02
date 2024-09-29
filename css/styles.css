@@ -24,7 +24,7 @@ nav {
 
 ul {
     list-style: none;
-    padding-left: 0;
+
 }
 
 .address {
@@ -52,6 +52,11 @@ ul {
 
 .logo {
     color: #2E2F42;
+}
+
+.navi:hover,
+.navi:focus {
+    color: #404bbf;
 }
 
 .section-first {
@@ -91,6 +96,8 @@ ul {
     font-size: 56px;
     line-height: 1.07;
     color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .main-text-section {
@@ -112,6 +119,10 @@ ul {
 
 .section-third {
     background-color: #F4F4FD;
+    text-align: center;
+}
+
+.section-fourth {
     text-align: center;
 }
 
