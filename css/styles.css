@@ -54,38 +54,28 @@ ul {
     padding-left: 0;
 }
 
-footer {
-    background-color: #2E2F42;
-    color: #F4F4FD;
-}
-
-.logo {
+.color {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
-}
-
-.logo-web {
     color: #4D5AE5;
 }
 
-.section1 {
+.logo {
+    color: #2E2F42;
+}
+
+.section-first {
     background-color: #2E2F42;
     width: 1440px;
     height: 600px;
 }
 
-.button-section1 {
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4D5AE5;
+.button-hero {
+    background-color: #4D5AE5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -94,15 +84,46 @@ footer {
     text-align: center;
 }
 
-.h2-section2 {
+.button-hero:hover,
+.button-hero:focus {
+    background-color: #404BBF;
+}
+
+.main-text {
+    letter-spacing: 0.02em;
+}
+
+.none-text-section {
     visibility: hidden;
 }
 
-.section3 {
+.main-text-section {
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.our-team-li {
+    background-color: #FFFFFF;
+}
+
+.p-text {
+    font-size: 16px;
+}
+
+.section-third {
+    background-color: #F4F4FD;
     text-align: center;
 }
 
-
 .studio {
     color: #F4F4FD;
+}
+
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.footer-text {
+    letter-spacing: 0.02em;
 }
